@@ -9,11 +9,15 @@
     "./**/*.tsx"
   ],
   "compilerOptions": {
+    "jsx": "react",
     "paths": {
       "~*": [
         "./src/*"
       ]
     },
+    "types": [
+      "use-debounce"
+    ],
     "baseUrl": "."
   }
 }

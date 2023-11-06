@@ -1,33 +1,37 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# Chrome Extension Name
 
-## Getting Started
+![Chrome Extension Logo](./assets/icon.png)
 
-First, run the development server:
+The "Jarvis" is a powerful and user-friendly extension for Google Chrome that enhances your web browsing experience. It provides an efficient ai chat which can give you a quick response and makes online activities more convenient and efficient. 
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+## Installation
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
+1. Clone this repository:
+   ```shell
+   git clone https://github.com/ravix007/Chrome_Extension.git
+   ```
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+2. Open Google Chrome.
 
-## Making production build
+3. Go to `chrome://extensions/`.
 
-Run the following:
+4. Enable "Developer mode."
 
-```bash
-pnpm build
-# or
-npm run build
-```
+5. Click on "Load unpacked" and select the directory where you cloned the extension.
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+## Usage
 
-## Submit to the webstores
+Once the extension is installed, you'll typically find its icon in the Chrome toolbar. Click on the extension icon to access the Ai ChatWindow and start asking questions.
 
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
+
+![Extension Image](./assets/chat.png)
+
+
+
