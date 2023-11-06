@@ -7,9 +7,7 @@ The "Jarvis" is a powerful and user-friendly extension for Google Chrome that en
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [Working](#DEMO)
 
 ## Installation
 
@@ -33,5 +31,9 @@ Once the extension is installed, you'll typically find its icon in the Chrome to
 
 ![Extension Image](./assets/chat.png)
 
+## Demo
+
+
+https://github.com/raviX007/Chrome_Extension/assets/91694681/5573bccb-dd14-457b-a5ca-d21a4aa985f9
 
 
